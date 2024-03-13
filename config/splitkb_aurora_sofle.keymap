@@ -57,7 +57,7 @@
 &trans  &kp F1                 &kp F2            &kp F3                &kp F4                 &kp F5                       &kp F6         &kp F7          &kp F8           &kp F9             &kp F10        &kp F11
 &trans  &kp RS(RA(SEMICOLON))  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE                     &kp AMPERSAND  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp TILDE      &kp F12
 &trans  &kp EXCL               &kp AT            &kp HASH              &kp DOLLAR             &kp PRCNT                    &kp ASTERISK   &kp MINUS       &kp EQUAL        &kp PLUS           &kp GRAVE      &trans
-&trans  &kp LEFT_ALT           &none             &kt RA(RS(S))         &kp BACKSLASH          &none      &trans    &trans  &kp CARET      &kp UNDERSCORE  &kp SEMICOLON    &kp COLON          &kp RIGHT_ALT  &trans
+&trans  &kp LEFT_ALT           &kp RA(N5)        &kt RA(RS(S))         &kp BACKSLASH          &none      &trans    &trans  &kp CARET      &kp UNDERSCORE  &kp SEMICOLON    &kp COLON          &kp RIGHT_ALT  &trans
                                &none             &none                 &none                  &trans     &trans    &trans  &trans         &none           &none            &none
             >;
 
@@ -75,7 +75,7 @@
             bindings = <
 &trans  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_HUD    &rgb_ug RGB_HUI  &rgb_ug RGB_SAD   &rgb_ug RGB_SAI                    &ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &to 3
 &trans  &kp RA(Q)                       &kp C_PREVIOUS     &kp HOME         &kp C_NEXT        &kp PAGE_UP                        &kp RA(Y)          &kp HOME         &kp UP_ARROW     &kp END          &kp RA(P)        &trans
-&trans  &kp K_CALCULATOR                &kp RA(S)          &kp K_PREVIOUS   &kp K_PLAY_PAUSE  &kp K_FORWARD                      &kp DELETE         &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &none            &trans
+&trans  &none                           &kp RA(S)          &kp K_PREVIOUS   &kp K_PLAY_PAUSE  &kp K_FORWARD                      &kp DELETE         &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &none            &trans
 &trans  &kp LEFT_ALT                    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE        &kp PAGE_DOWN    &trans    &trans  &kp INSERT         &none            &none            &none            &kp RIGHT_ALT    &trans
                                         &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1      &trans           &trans    &trans  &trans             &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4
             >;
