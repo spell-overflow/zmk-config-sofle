@@ -57,7 +57,7 @@
 &trans  &kp F1                 &kp F2            &kp F3          &kp F4           &kp F5                       &kp F6         &kp F7                &kp F8                 &kp F9             &kp F10    &kp F11
 &trans  &kp RS(RA(SEMICOLON))  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE                     &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp TILDE  &kp F12
 &trans  &kp EXCL               &kp AT            &kp HASH        &kp DOLLAR       &kp PRCNT                    &kp ASTERISK   &kp MINUS             &kp EQUAL              &kp PLUS           &kp GRAVE  &trans
-&trans  &none                  &kp RA(N5)        &kt RA(RS(S))   &kp BACKSLASH    &none      &trans    &trans  &kp CARET      &kp UNDERSCORE        &kp SEMICOLON          &kp COLON          &none      &trans
+&trans  &kp ESCAPE             &kp RA(N5)        &kt RA(RS(S))   &kp BACKSLASH    &none      &trans    &trans  &kp CARET      &kp UNDERSCORE        &kp SEMICOLON          &kp COLON          &none      &trans
                                &trans            &none           &trans           &trans     &trans    &trans  &trans         &trans                &none                  &trans
             >;
 
