@@ -91,11 +91,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &rgb_ug RGB_COLOR_HSB(288,100,50)  &rgb_ug RGB_HUD    &rgb_ug RGB_HUI  &rgb_ug RGB_SAD   &rgb_ug RGB_SAI                    &rgb_ug RGB_COLOR_HSB(0,0,0)  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &to 3
-&trans  &kp RA(Q)                          &kp C_PREVIOUS     &kp HOME         &kp C_NEXT        &kp PAGE_UP                        &kp RA(Y)                     &kp HOME         &kp INSERT       &kp END          &kp RA(P)        &trans
-&trans  &none                              &kp RA(S)          &kp K_PREVIOUS   &kp K_PLAY_PAUSE  &kp K_FORWARD                      &kp LEFT_ARROW                &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &none            &trans
-&trans  &none                              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE        &kp PAGE_DOWN    &trans    &trans  &kp DELETE                    &none            &none            &none            &none            &trans
-                                           &trans             &trans           &trans            &trans           &trans    &trans  &trans                        &trans           &none            &trans
+&trans  &rgb_ug RGB_COLOR_HSB(288,100,50)  &rgb_ug RGB_HUD    &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI                    &rgb_ug RGB_COLOR_HSB(0,0,0)  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &to 3
+&trans  &kp RA(Q)                          &kp C_PREVIOUS     &kp HOME         &kp C_NEXT       &kp PAGE_UP                        &kp RA(Y)                     &kp HOME         &kp INSERT       &kp END          &kp RA(P)        &trans
+&trans  &none                              &kp RA(S)          &kp C_PREVIOUS   &kp C_PP         &kp LS(C_NEXT)                     &kp LEFT_ARROW                &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &none            &trans
+&trans  &none                              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE       &kp PAGE_DOWN    &trans    &trans  &kp DELETE                    &none            &none            &none            &none            &trans
+                                           &trans             &trans           &trans           &trans           &trans    &trans  &trans                        &trans           &none            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -103,11 +103,11 @@
 
         numpad {
             bindings = <
-&trans  &none  &out OUT_BLE  &ext_power EP_ON   &rgb_ug RGB_ON   &rgb_ug RGB_SPI                    &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_ASTERISK  &kp KP_MINUS     &kp KP_PLUS    &kp K_CALCULATOR
-&trans  &none  &out OUT_USB  &ext_power EP_OFF  &rgb_ug RGB_OFF  &rgb_ug RGB_SPD                    &kp KP_EQUAL     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSPACE  &none
-&trans  &none  &bt BT_CLR    &bt BT_SEL 0       &bt BT_SEL 1     &none                              &none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none          &trans
-&trans  &none  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4     &none            &none     &none   &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COMMA      &to 0
-               &trans        &trans             &trans           &trans           &trans    &trans  &kp KP_NUMBER_0  &trans           &none            &trans
+&trans  &none  &out OUT_BLE  &ext_power EP_ON   &rgb_ug RGB_ON   &rgb_ug RGB_SPI                    &kp KP_NUMLOCK  &kp KP_DIVIDE    &kp KP_ASTERISK  &kp KP_MINUS     &kp KP_PLUS    &kp C_AL_CALCULATOR
+&trans  &none  &out OUT_USB  &ext_power EP_OFF  &rgb_ug RGB_OFF  &rgb_ug RGB_SPD                    &kp KP_EQUAL    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSPACE  &none
+&trans  &none  &bt BT_CLR    &bt BT_SEL 0       &bt BT_SEL 1     &none                              &none           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none          &trans
+&trans  &none  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4     &none            &none     &none   &kp KP_DOT      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COMMA      &to 0
+               &trans        &trans             &trans           &trans           &trans    &trans  &trans          &kp KP_NUMBER_0  &none            &trans
             >;
         };
     };
