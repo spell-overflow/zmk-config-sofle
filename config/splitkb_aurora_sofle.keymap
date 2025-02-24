@@ -91,7 +91,7 @@
 
             bindings = <
 &trans  &rgb_ug RGB_COLOR_HSB(288,100,50)  &rgb_ug RGB_HUD    &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI                    &rgb_ug RGB_COLOR_HSB(0,0,0)  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &to 3
-&trans  &kp RA(Q)                          &kp C_PREVIOUS     &kp HOME         &kp C_NEXT       &kp PAGE_UP                        &kp RA(Y)                     &kp HOME         &kp INSERT       &kp END          &kp RA(P)        &kp C_AL_CALC
+&trans  &kp RA(Q)                          &kp C_PREVIOUS     &kp HOME         &kp C_NEXT       &kp PAGE_UP                        &kp RA(Y)                     &kp HOME         &kp INSERT       &kp END          &kp RA(P)        &trans
 &trans  &none                              &kp RA(S)          &kp C_PREVIOUS   &kp C_PP         &kp LS(C_NEXT)                     &kp LEFT_ARROW                &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp PRINTSCREEN  &trans
 &trans  &none                              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE       &kp PAGE_DOWN    &trans    &trans  &kp DELETE                    &none            &none            &none            &none            &trans
                                            &trans             &trans           &trans           &trans           &trans    &trans  &trans                        &trans           &none            &trans
