@@ -100,11 +100,11 @@
 
         numpad {
             bindings = <
-&trans  &none  &out OUT_BLE  &ext_power EP_ON   &rgb_ug RGB_ON   &rgb_ug RGB_SPI                    &kp KP_NUMLOCK  &kp KP_DIVIDE    &kp KP_ASTERISK  &kp KP_MINUS     &kp KP_PLUS    &kp C_AL_CALCULATOR
-&trans  &none  &out OUT_USB  &ext_power EP_OFF  &rgb_ug RGB_OFF  &rgb_ug RGB_SPD                    &kp KP_EQUAL    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSPACE  &none
-&trans  &none  &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &none                              &none           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none          &trans
-&trans  &none  &bt BT_SEL 3  &bt BT_SEL 4       &bt BT_CLR       &none            &none     &none   &kp KP_DOT      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COMMA      &to 0
-               &trans        &trans             &trans           &trans           &trans    &trans  &trans          &kp KP_NUMBER_0  &none            &trans
+&trans  &none  &out OUT_BLE  &ext_power EP_ON   &rgb_ug RGB_ON   &rgb_ug RGB_SPI                    &none         &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS  &kp C_AL_CALCULATOR
+&trans  &none  &out OUT_USB  &ext_power EP_OFF  &rgb_ug RGB_OFF  &rgb_ug RGB_SPD                    &kp KP_EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &none
+&trans  &none  &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &none                              &none         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none         &trans
+&trans  &none  &bt BT_SEL 3  &bt BT_SEL 4       &bt BT_CLR       &none            &none     &none   &kp KP_DOT    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &to 0
+               &trans        &trans             &trans           &trans           &trans    &trans  &trans        &kp KP_NUMBER_0  &kp PERIOD       &kp KP_COMMA
             >;
         };
     };
